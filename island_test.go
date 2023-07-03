@@ -4,6 +4,10 @@ import (
     "testing"
 )
 
+// ultimately composing a function using other functions is complex
+// would have been faster/less complicated to tackle use case directly
+// A composed function like this would need a diagram for me to understand
+// the moving parts and purposes when I return to it
 func TestTwoDSliceToGraph(t *testing.T){
     grid := [][]string{
         []string{"w","i","i"},
